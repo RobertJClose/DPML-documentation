@@ -11,20 +11,20 @@
       
       
       
+        <link rel="prev" href="../Vector3d/">
       
-        <link rel="next" href="Mathd/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.18">
     
     
       
-        <title>DPML Documentation</title>
+        <title>Vector4d - DPML Documentation</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.66ac8b77.min.css">
       
       
 
@@ -43,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -61,11 +61,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#the-double-precision-maths-library" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -78,7 +73,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="DPML Documentation" class="md-header__button md-logo" aria-label="DPML Documentation" data-md-component="logo">
+    <a href=".." title="DPML Documentation" class="md-header__button md-logo" aria-label="DPML Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -98,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              The Double Precision Maths Library
+              Vector4d
             
           </span>
         </div>
@@ -173,7 +168,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="DPML Documentation" class="md-nav__button md-logo" aria-label="DPML Documentation" data-md-component="logo">
+    <a href=".." title="DPML Documentation" class="md-nav__button md-logo" aria-label="DPML Documentation" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -188,30 +183,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    The Double Precision Maths Library
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -220,68 +195,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Overview">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#purpose-of-this-package" class="md-nav__link">
-    <span class="md-ellipsis">
-      Purpose Of This Package
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#style-of-this-documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style Of This Documentation
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -293,7 +206,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Mathd/" class="md-nav__link">
+      <a href="../Mathd/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -313,7 +226,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Matrix4x4d/" class="md-nav__link">
+      <a href="../Matrix4x4d/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -333,7 +246,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Quaterniond/" class="md-nav__link">
+      <a href="../Quaterniond/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -353,7 +266,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Vector2d/" class="md-nav__link">
+      <a href="../Vector2d/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -373,7 +286,7 @@
   
   
     <li class="md-nav__item">
-      <a href="Vector3d/" class="md-nav__link">
+      <a href="../Vector3d/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -390,10 +303,17 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="Vector4d/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -402,6 +322,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -423,58 +344,6 @@
   
   
   
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
-    <span class="md-ellipsis">
-      Overview
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Overview">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#purpose-of-this-package" class="md-nav__link">
-    <span class="md-ellipsis">
-      Purpose Of This Package
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Installation
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#style-of-this-documentation" class="md-nav__link">
-    <span class="md-ellipsis">
-      Style Of This Documentation
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -489,28 +358,9 @@
                   
 
 
-<h1 id="the-double-precision-maths-library">The Double Precision Maths Library</h1>
-<h2 id="overview">Overview</h2>
-<p>This is the documentation for the <strong>Double Precision Maths Library</strong> - a library of code for users of the Unity game engine. </p>
-<p>The library is designed to offer classes that are instantly familiar to Unity users, as each class in this library has a corresponding equivalent class in the core UnityEngine API. However, the crucial difference is that while the Unity classes are built using single precision floating-point numbers, this library provides those same classes with double precision floating point numbers.</p>
-<p>The classes provided by this library are:</p>
-<ul>
-<li><a href="Mathd/">Mathd</a></li>
-<li><a href="Matrix4x4d/">Matrix4x4d</a></li>
-<li><a href="Quaterniond/">Quaterniond</a></li>
-<li><a href="Vector2d/">Vector2d</a></li>
-<li><a href="Vector3d/">Vector3d</a></li>
-<li><a href="Vector4d/">Vector4d</a></li>
-</ul>
-<h3 id="purpose-of-this-package">Purpose Of This Package</h3>
-<p>Compared to the C# <code>float</code> type, the <code>double</code> type allows for calculations to be made with greater precision, and reduces the potential impact of floating-point rounding errors in long calculations. For example, when simulating the orbital mechanics of the solar system you might have a satellite that is hundreds of millions of metres away from the Sun, but you would still like to know its location down to the centimetre. Single precision floats will struggle in this scenario without workarounds, while double precision floats will happily cover the extreme range of values. </p>
-<p>This of course comes at the cost of some speed and doubled memory usage. </p>
-<h2 id="installation">Installation</h2>
-<p>The package may installed from the <a href="https://u3d.as/3gGZ">Unity Asset Store</a> for $5.</p>
-<h2 id="style-of-this-documentation">Style Of This Documentation</h2>
-<p>The classes of this library are intended to match their Unity equivalents as closely as possible. Because of this, the documentation provided by Unity can largely serve as the documentation for this library.</p>
-<p>However, there are cases where the interfaces don't match. For example, there may be small differences in convention when returning values from some methods, or there are some methods which are simply not implemented by this library. This documentation seeks only to record those differences, no matter how big or small.</p>
-<p>In the documentation page for each class, you will find a link to the corresponding Unity documentation, as well as a complete description of all differences between the implementations.</p>
+  <h1>Vector4d</h1>
+
+
 
 
 
@@ -557,10 +407,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="assets/javascripts/bundle.3220b9d7.min.js"></script>
+      <script src="../assets/javascripts/bundle.3220b9d7.min.js"></script>
       
     
   </body>
